@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <title>Lexir Io Challenge</title>
+</head>
+
+<body>
+  <div class="main-container flex flex-nowrap h-screen w-screen">
+    <section class="left-section  px-8 w-80">
+      <div class="logo my-8 flex justify-center ">
+        <img src="imgs/logo.png" alt="Lexir Logo">
+      </div>
+      <div class="user-frame flex justify-center pt-10">
+        <img src="imgs/user.png" alt="User Image">
+        <div class="user-infos ml-3 bottom-0">
+          <h4 class="font-bold text-xl">Leandro Alves</h4>
+          <h5 class="text-gray-400 text-base">Company Name</h5>
+        </div>
+      </div>
+
+      <div class="menu flex justify-center mt-6">
+        <ul class="flex flex-col grow ml-6">
+          <li class=" py-2  flex flex-row font-medium ">
+            <img src="imgs/dashboard.png" alt="Icon" class="mr-4">
+            Dashboard
+          </li>
+          <li class=" py-2 flex flex-row font-medium bg-gray-100">
+            <img src="imgs/brandss.png" alt="Icon" class="mr-4">
+            Brands
+          </li>
+          <li class=" py-2 flex flex-row font-medium ">
+            <img src="imgs/products.png" alt="Icon" class="mr-4">
+            Products
+          </li>
+          <li class=" py-2 flex flex-row font-medium ">
+            <img src="imgs/customers.png" alt="Icon" class="mr-4">
+            Customers
+          </li>
+          <li class=" py-2 flex flex-row font-medium ">
+            <img src="imgs/orders.png" alt="Icon" class="mr-4">
+            Orders
+          </li>
+          <li class=" py-2 flex flex-row font-medium ">
+            <img src="imgs/billing.png" alt="Icon" class="mr-4">
+            Billing Profile
+          </li>
+          <li class=" py-2  flex flex-row font-medium ">
+            <img src="imgs/account.png" alt="Icon" class="mr-4">
+            Account Details
+          </li>
+          <li class=" py-2  flex flex-row font-medium ">
+            <img src="imgs/logout.png" alt="Icon" class="mr-4">
+            Logout
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="border right-section grow px-8 bg-gray-100">
+      <div class="my-8">
+        <img src="imgs/brands.png" alt="Brands">
+      </div>
+      <div class="search flex">
+        <input type="text" id="txtsearch" alt="Search" class="p-1 rounded-md mr-6 grow">
+        <button type="submit" class="bg-slate-900 px-2 w-30 rounded-md">
+          <span aria-label="Upload File" class="text-white font-bold">Add Brand</span>
+        </button>
+      </div>
+      <div>
+        <table class="mt-10 w-full">
+          <tr class="px-3 py-1">
+            <th>Brand</th>
+            <th>Product</th>
+            <th>Last Update</th>
+          </tr>
+          <tr class="border">
+            <td class="content-end">
+              <img src=" imgs/baldoria-logo.png" alt="Baldoria Logo">
+            </td>
+            <td>Vermouth</td>
+            <td>02 May, 2022</td>
+          </tr>
+          <tr class="border">
+            <td>
+              <img src="imgs/erika-logo.png" alt="Erika Logo">
+            </td>
+            <td>Vodka & Gyn</td>
+            <td>12 Dec, 2022</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>
